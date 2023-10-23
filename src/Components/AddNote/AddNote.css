@@ -1,0 +1,28 @@
+.new-note{
+    background-color: rgb(148, 248, 148);
+    border-radius: 10px;
+    padding: 1rem;
+    min-height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+textarea{
+    border: none;
+    resize: none;
+    background-color: rgb(148, 248, 148);
+}
+textarea:focus{
+    outline: none;
+}
+.save:hover{
+    background-color: rgb(109, 109, 247);
+    cursor: pointer;
+}
+.save{
+    background-color: gray;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+}

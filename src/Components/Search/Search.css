@@ -1,0 +1,17 @@
+.search{
+    display: flex;
+    align-items: center;
+    background-color: rgb(197, 196, 196);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    height: 30px;
+}
+.search input{
+    border:none;
+    background-color: rgb(197, 196, 196);
+}
+.search input:focus{
+    outline: none;
+}
